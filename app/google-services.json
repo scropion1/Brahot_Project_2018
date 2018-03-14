@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "180755889912",
+    "firebase_url": "https://brahot-57b54.firebaseio.com",
+    "project_id": "brahot-57b54",
+    "storage_bucket": "brahot-57b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180755889912:android:351a652be4f3266c",
+        "android_client_info": {
+          "package_name": "com.example.gabi.brahot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180755889912-08lcrcg484a444mqh8r3mi395tn5qouh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gabi.brahot",
+            "certificate_hash": "b416ef1e34df38a57f54c96d7cc8e6595c0108a1"
+          }
+        },
+        {
+          "client_id": "180755889912-aauqt0tl89v7n9ebv6vas8ss5tq3ua8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_zvT16KMHl-qVYHLXeS0X4SaMjVcn10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180755889912-aauqt0tl89v7n9ebv6vas8ss5tq3ua8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

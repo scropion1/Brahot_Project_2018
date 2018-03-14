@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background_new"
+            android:id="@+id/activity_custom_linear">
+
+            <LinearLayout
+                android:id="@+id/activity_custom_linear_layout_brahot_text"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:id="@+id/activity_custom_braha_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/assistant"
+                    android:textColor="#ffffff"
+                    android:text="ברכה ל"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/assistant"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#68666666"
+                    android:background="@null"
+                    android:hint="כתוב את שם הברכה..."
+                    android:id="@+id/activity_custom_title_edit_text"
+                    android:inputType="textNoSuggestions|textShortMessage"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_custom_for_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/activity_custom_linear_layout_brahot_text"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/activity_custom_for_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:fontFamily="@font/assistant"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_custom_linear_layout_text_linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/activity_custom_text_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="כתוב את הברכה..."
+                    android:fontFamily="@font/assistant"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#68666666"
+                    android:maxLength="400"
+                    android:background="@null"
+                    android:inputType="textNoSuggestions|textMultiLine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_custom_count_text_view"
+                    android:text="0/400"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/activity_custom_text_edit_text" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_custom_share_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="שתף באמצעות"
+            android:backgroundTint="#17162B"
+            android:fontFamily="@font/assistant"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/activity_custom_share_pic_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="שתף תמונה ב-"
+            android:drawableLeft="@drawable/ic_whatsapp"
+            android:backgroundTint="#17162B"
+            android:fontFamily="@font/assistant"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

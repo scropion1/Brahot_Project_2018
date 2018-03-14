@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17162B"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/assistant"
+                android:gravity="center"
+                android:text="נא מלא את הפרטים"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/activity_register_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:layout_marginTop="70dp"
+                android:hint="שם..."
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6" />
+
+            <EditText
+                android:id="@+id/activity_register_last_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="שם משפחה..."
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6" />
+
+            <EditText
+                android:id="@+id/activity_register_email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="אימייל..."
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6" />
+
+            <EditText
+                android:id="@+id/activity_register_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="נא רשום את הסיסמה..."
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6" />
+
+            <EditText
+                android:id="@+id/activity_register_city_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="עיר..."
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <Button
+                android:id="@+id/activity_register_done_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/button2"
+                android:text="בוצע"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

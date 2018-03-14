@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17162B"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_main_edit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_main_you_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/assistant"
+                android:layout_marginTop="20dp"
+                android:text="שם המתחבר"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/activity_main_who_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/assistant"
+                android:text="את מי תרצה לברך?"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/activity_main_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="הזן את השם..."
+                android:inputType="textNoSuggestions"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/activity_main_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/activity_main_male_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#ffffff"
+                    android:fontFamily="@font/assistant"
+                    android:text="בן"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/activity_main_female_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:buttonTint="#ffffff"
+                    android:fontFamily="@font/assistant"
+                    android:text="בת"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/activity_main_parent_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/assistant"
+                android:hint="שם האב או האם..."
+                android:inputType="textNoSuggestions"
+                android:textColor="#ffffff"
+                android:textColorHint="#68fcf6f6"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_main_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_main_edit_layout"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/activity_main_success_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/success_btn"
+                android:fontFamily="@font/assistant"
+                android:text="הצלחה"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_fare_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/fare_btn"
+                android:fontFamily="@font/assistant"
+                android:text="פרנסה"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_health_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/health_btn"
+                android:fontFamily="@font/assistant"
+                android:text="בריאות"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_virtue_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/virtue_btn"
+                android:fontFamily="@font/assistant"
+                android:text="סגולה"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_pairing_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/pairing_btn"
+                android:fontFamily="@font/assistant"
+                android:text="זיווג"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_new_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/new_btn"
+                android:fontFamily="@font/assistant"
+                android:text="אישית"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
